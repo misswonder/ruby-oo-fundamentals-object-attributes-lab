@@ -1,10 +1,5 @@
 class Person
     #attr_reader :name, :job
-
-    def initialized(name, job)
-        @name = name
-        @job = job
-    end
     
     def name= (name)
         @name = name    
